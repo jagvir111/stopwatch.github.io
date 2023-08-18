@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stopwatch</title>
+    <link rel="stylesheet" href="stopwatch.css">
+</head>
+<body>
+
+    <div id="container">
+
+        <!-- stopwatch's output will be show from this div -->
+        <div id="stopwatch">00:00:00</div>
+
+        <!-- making three buttons to givr options to user -->
+        <div class="buttons">
+
+             <!-- three functions are added to perform functioality by click of user -->
+            <button  onclick="startTimer()">start</button>
+            <button  onclick="stopTimer()">stop</button>
+            <button  onclick="resetTimer()" >reset</button>
+        </div>
+       
+
+
+    </div>
+    <script src="stopwatch.js"></script>
+    
+    
+</body>
+</html>
